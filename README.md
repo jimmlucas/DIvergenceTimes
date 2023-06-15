@@ -4,7 +4,7 @@ Procees of Data Anailsis Workflow :
 Befor start all the workflow, you have to Downnload the runs of WGS.
 
  1- First Quality control, Use "Fasqc" for know how is the quality of the runs 
- 2- Trimming procees, run the scrip: quality.sh (The parametres can be change, you have to use change the parametres depends of the proyect)
+ 2- Trimming procees, run the scrip: quality.sh (The parametres can be change, you have to change the parametres depends of the proyect)
  3- Second Quality control, open the file that end in .html for know the status after the Trimming. 
  4- Mapping using a refrence genome and change the file to the format .BAM, run the scrip: bwa2 (The location of the files must be changed, use the correct local extension)
  5- Sorted and Index the files, run the scrip samtools.sh
