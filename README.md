@@ -1,7 +1,7 @@
 # DIvergenceTimes
 Determination Of Divergence Times between sub populations of _saccharomyces eubayanus_. Used Data of WGS for prepare all the workflow.
 Procees of Data Anailsis Workflow :
-Befor start all the workflow, you have to Downnload the runs of WGS.
+Befor start all the workflow, you have to Downnload the runs of WGS project.
 
  1. First Quality control, Use "Fasqc" for know how is the quality of the runs 
  2. Trimming procees, run the scrip: quality.sh (The parametres can be change, you have to change the parametres depends of the proyect)
