@@ -1,5 +1,5 @@
 # DIvergenceTimes
-Determination Of Divergence Times between sub populations. Used Data of WGS for prepare all the workflow.
+Determination Of Divergence Times between sub populations of _saccharomyces eubayanus_. Used Data of WGS for prepare all the workflow.
 Procees of Data Anailsis Workflow :
 Befor start all the workflow, you have to Downnload the runs of WGS.
 
