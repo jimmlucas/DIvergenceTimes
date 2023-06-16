@@ -6,8 +6,8 @@ output_dir="/Users/jimmlucas/Tesis/Data/Processed/Filtering/Triming"
 trimmomatic_jar="/Users/jimmlucas/Tesis/Trimmomatic-0.39/trimmomatic-0.39.jar"
 adapters="/Users/jimmlucas/Tesis/Trimmomatic-0.39/adapters/TruSeq3-PE.fa"
 phred="33"
-LEADING="20" #Elimina las bases del principio de la lectura hasta que se encuentra una base con calidad mayor a 20.
-TRAILING="20" #Elimina las bases del final de la lectura hasta que se encuentra una base con calidad mayor a 20.
+LEADING="20" #Delete all the bases under 20.
+TRAILING="20" #Remove the end bases untill find bases above 20. 
 SLIDINGWINDOW="4:20" #Analiza la calidad de las bases en ventanas de tamaño 4. Si la calidad media es menor a 20, se recorta la ventana.
 MINLEN="50" #Descarta las lecturas que quedan con una longitud menor a 50 bases después de los recortes.
 
