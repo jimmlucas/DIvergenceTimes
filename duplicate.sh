@@ -6,7 +6,7 @@ OUTPUT="/Users/jimmlucas/Tesis/Data/Annotation"
 for file in $IMPUT_DIR/*.sorted.bam
 do
     FILE="$file"
-    OUT_PUT=$(basename "$f" .sorted.bam)
+    OUT_PUT=$(basename "$FILE" .sorted.bam)
 
     picard AddOrReplaceReadGroups \
     I=$FILE \
