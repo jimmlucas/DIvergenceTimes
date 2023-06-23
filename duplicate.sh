@@ -15,5 +15,6 @@ do
     RGLB=lib1 \
     RGPL=ILLUMINA \
     RGPU=unit1 \
-    RGSM="$OUT_PUT"
+    RGSM="$OUT_PUT" \
+    CREATE_INDEX=true
 done
