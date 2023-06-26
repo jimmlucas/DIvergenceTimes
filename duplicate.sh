@@ -10,7 +10,7 @@ do
 
     picard AddOrReplaceReadGroups \
     I=$FILE \
-    O="$FILE/$OUT_PUT.RG.bam" \
+    O="$OUTPUT/$OUT_PUT.RG.bam" \
     RGID="$OUT_PUT" \
     RGLB=lib1 \
     RGPL=ILLUMINA \
