@@ -30,4 +30,4 @@ do
     LEADING:$LEADING TRAILING:$TRAILING SLIDINGWINDOW:$SLIDINGWINDOW MINLEN:$MINLEN
 
     fastqc -o $output_dir $output_pair1 $output_pair2
-done                                                      
+done
