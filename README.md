@@ -9,6 +9,7 @@ Before starting the entire workflow, you need to download the WGS project runs.
  4. Map using a reference genome and change the file format to .BAM format, run the script: bwa2 (The location of the files must be changed, use the correct local extension)
  5. Sort and index the files, run the samtools.sh script
  6. Third QC, use samtools flagstatic or MultiQC to know: how is your file after mapping.
- 7. Markduplicate(*), before starting the Markduplicate process you must know how you want to use the data. In this case....
+ 7. Markduplicate(*), before starting the Markduplicate process you must know how you want to use the data. In this case used picard's.Its importan know the ID used.
+ 8.  
  
  *CP:check point
