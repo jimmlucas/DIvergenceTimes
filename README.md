@@ -7,7 +7,7 @@ Develop to automate analysis of the WGS-Eukaryotic. Using DB by University of Ch
 If you want, you can use you own date too, or compare with anather workflow. Everything is automated so it will be easy to run.
 
 ## Process:
-. Quality control
+.Quality control
 . Trimming methods
 . Mapping
 . Data collection and quality assesment
