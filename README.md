@@ -9,23 +9,23 @@ If you want, you can use you own date too, or compare with anather workflow. Eve
 ## Process:
 - Quality control
 - Trimming methods
-. Mapping
-. Data collection and quality assesment
-. Data matrix construction
-. Phylogenomic matrix 
-. Maximum likelihood phylogenetic analyses
+- Mapping
+- Data collection and quality assesment
+- Data matrix construction
+- Phylogenomic matrix 
+- Maximum likelihood phylogenetic analyses
 
 # How to use it?
 
 ## Requirements
 
 Before starting the entire workflow, you need to have installed all the tools:
-. Qualimap
-. Trimmomatic
-. GATK
-. BWA
-. Samtools
-. IQ-TREE
+- Qualimap
+- Trimmomatic
+- GATK
+- BWA
+- Samtools
+- IQ-TREE
 
 ## Preparation of inputs
 
