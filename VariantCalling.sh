@@ -7,9 +7,9 @@ REF_GENOME="/Users/jimmlucas/Tesis/Data/Reference_genome/CBS12357_polished_20170
 for f in $IMPUT_DIR/*.dedup.bam.RG.bam
 do
     FILE="$f"
-    OUT_PUT=$("$FILE" | cut -d"." -f1)
+    OUT_PUT="$(echo $FILE | sed 's/dedup.bam.RG.bam/vcf/')"
     gatk --java-options "-Xmx4g" HaplotypeCaller\
-    -R=$REF_GENOME \
-    -I=$FILE \
-    -O=$OUTPUT/$OUT_PUT.vcf
+    -R $REF_GENOME \
+    -I $FILE \
+    -O "{$OUT_PUT}"
 done
