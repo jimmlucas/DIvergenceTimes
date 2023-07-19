@@ -5,7 +5,7 @@
 [![Issues][issues-shield]][issues-url]
 [![license-shield]][license-url]
 
-Pipeline for Determination of divergence times between subpopulations of saccharomyces eubayanus. Used the Bioinfotmatics tools for data from WGS
+Pipeline used for Determination of divergence times between subpopulations of saccharomyces eubayanus. Used the Bioinfotmatics tools for data from WGS
 
 Develop to automate analysis of the WGS-Eukaryotic. Using DB by University of Chile.
 
