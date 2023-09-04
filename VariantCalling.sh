@@ -9,8 +9,9 @@ do
     FILE="$f"
     NAME="$(basename $f | sed 's/.dedup.bam.RG.bam/.g.vcf.gz/')"
     
-    gatk --java-options "-Xmx4g" HaplotypeCaller\
+    gatk --java-options "-Xmx10G" HaplotypeCaller\
     -R $REF_GENOME \
     -I $FILE \
-    -O $OUT_PUT/$NAME 
+    -O $OUT_PUT/$NAME \
+    -ERC GVCF
 done
